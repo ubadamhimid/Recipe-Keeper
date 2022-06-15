@@ -1,0 +1,76 @@
+html,
+body,
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  list-style-type: none;
+  outline: 0;
+}
+
+::selection {
+  background: #c1c1c1;
+}
+
+body {
+  background: whitesmoke !important;
+}
+
+a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+/* ------------------------------ */
+
+.navbar {
+  background-color: #d24400;
+}
+
+.navbar-logo {
+  width: 200px;
+}
+
+.nav-link i {
+  font-size: 15px;
+}
+
+/* ------------------------------ */
+
+.login-form {
+  margin-top: 100px;
+  background-color: #d24400;
+  padding: 20px 20px 10px 20px;; 
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.login-form h1 {
+  color: whitesmoke;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.login-form input {
+  width: 100%;
+  font-family: helvetica, FontAwesome;
+  padding: 10px;
+  background-color: #fff;
+  color: #1d1d1d;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.login-form input[type="submit"] {
+  width: 100%;
+  background-color: #fff;
+  color: #d24400;
+  cursor: pointer;
+  border: none;
+}
+
+.login-form input[type="submit"]:hover {
+  background-color: #b64009;
+  color: #ffffff;
+}
